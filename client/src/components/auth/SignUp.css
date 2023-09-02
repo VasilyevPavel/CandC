@@ -1,0 +1,47 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.redirect {
+  text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+@media only screen and (min-width: 120px) and (max-width: 599px) {
+  .form-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .form-container {
+    width: 80%;
+  }
+
+  form {
+    width: 90%;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+}

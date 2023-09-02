@@ -1,0 +1,5 @@
+VITE_URL=http://localhost:XXXX/api/
+VITE_IMAGE_URL=http://localhost:XXXX/items/
+VITE_CATEGORY_URL=http://localhost:XXXX/category/
+VITE_MATERIALS_URL=http://localhost:XXXX/materials/
+VITE_COLLECTION_URL=http://localhost:XXXX/collection/

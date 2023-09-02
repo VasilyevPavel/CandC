@@ -1,0 +1,28 @@
+.collection-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.collection-container div {
+  margin-bottom: 15px;
+}
+
+.collection-text {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+@media (max-width: 599px) {
+  .collection-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .collection-text {
+    margin: 1px auto;
+  }
+}
