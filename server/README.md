@@ -55,18 +55,4 @@ boolean
 
 
 
-//"По идее потом многие id надо заменить на user_id, в нормальной бд"
-установка сервера npm install -g json-server
-запуск json-server --port 7000 --routes routes.json --watch db.json
-маршруты:
-http://localhost:7000/api/users/
-http://localhost:7000/api/orders/
-http://localhost:7000/api/item/
-http://localhost:7000/api/category/
-http://localhost:7000/api/collection/
-http://localhost:7000/api/order_items/
-http://localhost:7000/api/cart/
-http://localhost:7000/api/cart_items/
-http://localhost:7000/api/favorite/
 
-Добавиви /:id осуществляется переход на конкретный элемент
